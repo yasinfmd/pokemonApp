@@ -1,0 +1,30 @@
+.catchedPokeListContainer{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+  & .catchedPokeListTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Potta One', cursive;
+    color: #1abc9c;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  & .noCatchedPokeText{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    font-family: 'Potta One', cursive;
+    color: #1abc9c;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+}

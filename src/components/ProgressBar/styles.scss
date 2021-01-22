@@ -1,0 +1,26 @@
+
+.progress{
+  font-family: 'Potta One', cursive;
+  font-size: 12px;
+  background: #e9ecef;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  height: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.progressBar{
+  background: #1abc9c;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  transition: width .6s ease-in-out;
+}
+.progressBarText{
+  position: absolute;
+  left: 50%;
+  bottom: 0.5px;
+}

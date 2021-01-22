@@ -1,0 +1,17 @@
+.pokeLoading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Potta One', cursive;
+}
+.pokeDetailError{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: red;
+  font-size: 20px;
+  font-family: 'Potta One', cursive;
+}

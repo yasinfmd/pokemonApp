@@ -1,0 +1,127 @@
+.catchedPokeContainer {
+  margin-bottom: 20px;
+  cursor: auto;
+  position: relative;
+  display: flex;
+  height: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #d8dce3;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .actionSection {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Potta One', cursive;
+    font-size: 10px;
+    width: max-content;
+    display: flex;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-left: 16px;
+  }
+
+  .actionFavorite  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fadb14;
+  }
+
+  .actionFavorite svg:hover {
+      fill: #fadb14;
+  }
+
+  .actionSectionDelete {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Potta One', cursive;
+    color: red;
+    font-size: 10px;
+    width: max-content;
+    display: flex;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-left: 16px;
+  }
+
+  & .typesSection {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+
+
+    & .catchedPokeTypeItem {
+      height: 40px;
+      display: flex;
+      align-items: center;
+      font-family: 'Potta One', cursive;
+      color: #1abc9c;
+      font-size: 12px;
+      width: max-content;
+      display: flex;
+      text-transform: capitalize;
+      text-decoration: underline;
+    }
+
+    .catchedPokeTypeItem + .catchedPokeTypeItem {
+      margin-left: 8px;
+    }
+  }
+
+  & .catchedList {
+    flex: 1;
+    display: flex;
+    height: 40px;
+    align-items: center;
+
+    & .nameSection {
+      display: flex;
+      align-items: center;
+      font-family: 'Potta One', cursive;
+      color: #5e6c84;
+      font-size: 14px;
+      text-transform: capitalize;
+      width: max-content;
+      display: flex;
+    }
+
+    & .imageSection img {
+      display: flex;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+    }
+
+    & .idSection {
+      display: flex;
+      align-items: center;
+      font-family: 'Potta One', cursive;
+      color: #1abc9c;
+      font-size: 14px;
+      text-transform: uppercase;
+      width: max-content;
+      display: flex;
+    }
+  }
+}
+.favoritePokeTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: 'Potta One', cursive;
+  color: #1abc9c;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}

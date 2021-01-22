@@ -1,0 +1,77 @@
+.pokeCardContainer{
+  display: flex;
+  position: relative;
+}
+.typesSection{
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+  & .typeItem{
+    height: 20px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    background: #1abc9c;
+    padding: 8px 16px;
+    color: #ffffff;
+    border-radius: 3px;
+  }
+}
+.pokeCard{
+  cursor: pointer;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #d8dce3;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  & .pokeDetailLink{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Potta One', cursive;
+    color: #5e6c84;
+    font-size: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+  & .catchPokemon{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Potta One', cursive;
+    color: #1abc9c;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  & .imageSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px dashed #d8dce3;
+    margin-bottom: 20px;
+  }
+  & .titleSection{
+    font-family: 'Potta One', cursive;
+    color: #5e6c84;
+    font-weight: bold;
+    text-transform: uppercase;
+
+  }
+}

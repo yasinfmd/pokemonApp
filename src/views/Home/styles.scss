@@ -1,0 +1,50 @@
+.pokeContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  & .catchedPokeLink{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    font-family: 'Potta One', cursive;
+    cursor: pointer;
+    color: #1abc9c;
+    font-size: 12px;
+    text-decoration: underline;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+.pokeRow{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+.pokeCol{
+  flex: 1;
+  border-radius: 3px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.pokeLoading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Potta One', cursive;
+}
+.pokeListError{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: red;
+  font-size: 20px;
+  font-family: 'Potta One', cursive;
+}

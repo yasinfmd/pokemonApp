@@ -1,0 +1,136 @@
+.pokeDetailContainer{
+  display: flex;
+  position: relative;
+}
+.goBack{
+  font-family: 'Potta One', cursive;
+  color: #5e6c84;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+  text-decoration: underline;
+  line-height: 30px;
+}
+.pokeDetailImages{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  & .pokeDetailImagesTitle{
+    font-family: 'Potta One', cursive;
+    color: #5e6c84;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  & .pokeImageContainer{
+      border: 1px dashed #5e6c84;
+    margin-bottom: 8px;
+  }
+
+}
+.pokeDetailStatsArea{
+  box-sizing: border-box;
+  padding: 20px;
+  & .pokeDetailStatsTitle{
+    font-family: 'Potta One', cursive;
+    color: #5e6c84;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  & .pokeDetailStats{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    & .pokeStatsName{
+      font-family: 'Potta One', cursive;
+      color: #5e6c84;
+      text-transform: uppercase;
+      font-size: 10px;
+      margin-right: 20px;
+      width: 100px;
+    }
+    & .pokeStatsProgress{
+      flex: 1;
+    }
+  }
+}
+.pokeDetailInfoArea{
+  display: flex;
+  flex: 1;
+  margin-left: 40px;
+  flex-direction: column;
+  & .pokeDetailSummaryTitle{
+    font-family: 'Potta One', cursive;
+    color: #5e6c84;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  & .pokeDetailSummaryArea{
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    & .pokeInfoSection{
+      display: flex;
+      margin-left: 10px;
+      & .pokeInfoHeader{
+        font-family: 'Potta One', cursive;
+        color: #5e6c84;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 10px;
+      }
+      & .pokeInfo{
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-direction: column;
+        font-size: 10px;
+        font-family: 'Potta One', cursive;
+        align-items: center;
+      }
+    }
+    & .pokeDetailTypesSection{
+      display: flex;
+      margin-left: 10px;
+      & .pokeDetailTypesTitle{
+        font-family: 'Potta One', cursive;
+        color: #5e6c84;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 10px;
+      }
+      & .pokeDetailTypes{
+        display: flex;
+        font-size: 10px;
+        font-family: 'Potta One', cursive;
+        margin-left: 10px;
+      }
+    }
+    & .pokeDetailAbilitiesSection{
+      display: flex;
+
+
+
+      & .pokeDetailAbilities{
+        margin-left: 10px;
+        display: flex;
+        font-size: 10px;
+        font-family: 'Potta One', cursive;
+      }
+      & .pokeDetailAbilitiesTitle{
+        font-family: 'Potta One', cursive;
+        color: #5e6c84;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 10px;
+      }
+    }
+  }
+
+}

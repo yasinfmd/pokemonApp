@@ -1,0 +1,16 @@
+.footer{
+  font-family: 'Potta One', cursive;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1abc9c;
+  color: white;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 30px;
+}
